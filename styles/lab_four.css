@@ -120,3 +120,18 @@ body, html {
   h1 {
     text-align: center;
   }
+/* This is the base styling for all HTML elements */
+body {
+    font-family: 'Archivo Black', sans-serif ; /* Font fallback in case the primary font is not available */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    /* other styles */
+    font-family: inherit; /* or specify a specific font family */
+  }
+ /* Style for the accordion button */
+button.accordion {
+    font-family: inherit;
+  }
