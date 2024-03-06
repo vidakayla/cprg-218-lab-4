@@ -72,19 +72,11 @@ body, html {
   
   /* Style the accordion panel. Note: hidden by default */
     .panel {
-    padding: 0 18px;
+    padding: 0;
     background-color: white;
     color:#444;
     display: none;
     overflow: hidden;
-}
-
-    .panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
 }
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -142,9 +134,9 @@ body, html {
   }
   
   /* Center the h1 */
-  h1 {
+h1 {
     text-align: center;
-  }
+}
 /* This is the base styling for all HTML elements */
 body {
     font-family: 'Archivo Black', sans-serif ; /* Font fallback in case the primary font is not available */
