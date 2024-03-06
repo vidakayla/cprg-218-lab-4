@@ -47,8 +47,22 @@
   </div>
   </section>
   <section class="footer-container">
-    <!-- Remove and add footer HTML -->
-    <div class="remove-assignment-content">
+    <footer>
+      <p>&copy; <span id="year"></span> Your Company. All Rights Reserved.</p>
+      <p>Contact: <a href="mailto:contact@example.com">contact@example.com</a></p>
+      <p>
+          <a href="https://www.facebook.com/YourCompany"><img src="facebook-icon.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com/YourCompany"><img src="twitter-icon.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com/YourCompany"><img src="instagram-icon.png" alt="Instagram"></a>
+      </p>
+      <p>
+          <a href="terms-of-use.html">Terms of Use</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+      </p>
+  </footer>
+  <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
       <h1>Footer</h1>
     </div>
   </section>
