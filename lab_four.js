@@ -31,4 +31,5 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+document.getElementById("year").innerHTML = new Date().getFullYear();
 

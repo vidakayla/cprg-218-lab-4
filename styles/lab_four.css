@@ -2,6 +2,11 @@ body, html {
     height: 100%;
 }
 
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -25,6 +30,26 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -134,4 +159,24 @@ body {
  /* Style for the accordion button */
 button.accordion {
     font-family: inherit;
-  }
+}
+.footer-container {
+    text-align: center;
+    margin-top: 20px;
+}
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+footer p {
+    margin-bottom: 0.5rem;
+}
+  
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
