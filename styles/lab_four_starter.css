@@ -1,18 +1,21 @@
 .hero-container {
-  background-color: #403d58;
+  background-color: #ffffff;
   color: #fff;
   height: 100vh;
 }
 
 .content-container {
-  background-color: #dbd56e;
+  background-color: #ffffff;
   height: 600px;
+  width: 100%;
+  position: relative;
 }
 
 .accordion-container {
-  background-color: #fc7753;
+  background-color: #ffffff;
   color: #fff;
-  height: 600px;
+  height: 400px;
+  position: relative;
 }
 
 .footer-container {
