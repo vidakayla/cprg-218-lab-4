@@ -14,7 +14,7 @@
 .accordion-container {
   background-color: #ffffff;
   color: #fff;
-  height: 400px;
+  height: 500px;
   position: relative;
 }
 
@@ -24,3 +24,13 @@
   height: 300px;
   position: relative;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .accordion-container {
+    height: auto;
+    overflow-y: auto;
+  }
+}
+
+
